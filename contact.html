@@ -1,33 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rajwardhan - Portfolio static</title>
-    <link rel="icon" href="assets/velocilogopng.png" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact – Rajwardhan</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/velocilogopng.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <div class="main">
-        <h2 class="subhead">Hello, I am</h2>
-        <h1 id="namesec">RAJWARDHAN BHANDIGARE</h1>
-
-        <div class="sections">
-            <a href="intro.html" class="links">INTRO</a>
-            <a href="work.html" class="links">WORK</a>
-            <a href="about.html" class="links">ABOUT</a>
-            <a href="contact.html" class="links">CONTACT</a>
+  <div class="container contact-form">
+    <h1>Contact</h1>
+    <form>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
         </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn primary">Send Message</button>
+        <button type="reset" class="btn outline">Reset</button>
+      </div>
+    </form>
+
+    <div class="social-links">
+      <a href="https://github.com/RAJWARDHAN-B" target="_blank" aria-label="GitHub">
+        <img src="assets/github.svg" alt="GitHub" />
+      </a>
+      <!-- https://in.linkedin.com/in/rajwardhan-bhandigare-b03568301 -->
+      <a href="https://linkedin.com/in/rajwardhan-bhandigare-b03568301" target="_blank" aria-label="LinkedIn">
+        <img src="assets/linkedin.svg" alt="LinkedIn" />
+      </a>
+      <a href="mailto:rajwardhanpict@gmail.com" aria-label="Email">
+        <img src="assets/gmail.svg" alt="Email" />
+      </a>
     </div>
 
-    
+    <a href="index.html" class="back">← Back to Home</a>
+  </div>
 
     <footer class="glass-footer">
-        <p>&copy; 2025 Rajwardhan Bhandigare</p>
+        <div class="footer-content">
+            <!-- Home link with icon -->
+            <a href="index.html" class="home-link" aria-label="Go to home page">
+            <img src="assets/home.svg" alt="Home Icon" />
+            Home
+            </a>
+
+            <!-- Social media icons -->
+            <div class="social-icons">
+            <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+                <img src="assets/github.svg" alt="GitHub" />
+            </a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn">
+                <img src="assets/linkedin.svg" alt="LinkedIn" />
+            </a>
+            <a href="mailto:your@email.com" aria-label="Email">
+                <img src="assets/gmail.svg" alt="Email" />
+            </a>
+            </div>
+        </div>
+
+        <p class="footer-copy">&copy; 2025 Rajwardhan Bhandigare</p>
     </footer>
 </body>
-
 </html>
