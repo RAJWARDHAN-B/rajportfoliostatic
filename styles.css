@@ -491,3 +491,78 @@ input:focus, textarea:focus {
   }
 }
 
+.about-page h1,
+.about-page h2 {
+  color: #76705F;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+.resume-section p {
+  margin-bottom: 0.5rem;
+  color: #A6A08F;
+}
+
+.btn.primary {
+  display: inline-block;
+  background: #fff;
+  color: #000;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.skills-section .skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.skill-tags span {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(6px);
+  padding: 0.4rem 0.8rem;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.cp-links .cp-icons {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cp-icons img {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  padding: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.cp-icons img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+  .btn.primary {
+    font-size: 0.95rem;
+  }
+
+  .skill-tags span {
+    font-size: 0.85rem;
+  }
+
+  .cp-icons {
+    justify-content: center;
+  }
+}
+
+

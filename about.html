@@ -1,24 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rajwardhan - Portfolio static</title>
-    <link rel="icon" href="assets/velocilogopng.png" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About – Rajwardhan</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/velocilogopng.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <div class="main">
-        <h2 class="subhead">Hello, I am</h2>
-        <h1 id="namesec">RAJWARDHAN BHANDIGARE</h1>
+  <div class="container about-page">
+    <h1>About Me</h1>
+
+    <!-- Resume Download -->
+    <section class="resume-section">
+      <p>You can view or download my full resume here:</p>
+      <a href="assets/RajResumeWeb.pdf" class="btn primary" target="_blank">📄 View Resume</a>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills-section">
+      <h2>Skills & Technologies</h2>
+      <div class="skill-tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>Tailwind CSS</span>
+        <span>Three.js</span>
+        <span>Node.js</span>
+        <span>Express.js</span>
+        <span>Django</span>
+        <span>MongoDB</span>
+        <span>SQL</span>
+        <span>Python</span>
+        <span>C++</span>
+        <span>Java</span>
+        <span>Git</span>
+        <span>Docker</span>
+        <span>Figma</span>
+        <span>WordPress</span>
+      </div>
+    </section>
+
+    <!-- CP Links -->
+    <section class="cp-links">
+      <h2>Competitive Programming</h2>
+      <div class="cp-icons">
+        <a href="https://leetcode.com/u/rajwardhan-b/" target="_blank" aria-label="LeetCode">
+          <img src="assets/leetcode.svg" alt="LeetCode" />
+        </a>
+        <a href="https://www.codechef.com/users/rajwardhan21" target="_blank" aria-label="CodeChef">
+          <img src="assets/codechef.svg" alt="CodeChef" />
+        </a>
+      </div>
+    </section>
+
+    <a href="index.html" class="back">← Back to Home</a>
+  </div>
+
+  <footer class="glass-footer">
+    <div class="footer-content">
+        <!-- Home link with icon -->
+        <a href="index.html" class="home-link" aria-label="Go to home page">
+        <img src="assets/home.svg" alt="Home Icon" />
+        Home
+        </a>
+
+        <!-- Social media icons -->
+        <div class="social-icons">
+        <a href="https://github.com/RAJWARDHAN-B" target="_blank" aria-label="GitHub">
+            <img src="assets/github.svg" alt="GitHub" />
+        </a>
+        <a href="https://linkedin.com/in/rajwardhan-bhandigare" target="_blank" aria-label="LinkedIn">
+            <img src="assets/linkedin.svg" alt="LinkedIn" />
+        </a>
+        <a href="mailto:rajwardhanpict@gmail.com" aria-label="Gmail">
+            <img src="assets/gmail.svg" alt="Email" />
+        </a>
+        </div>
     </div>
 
-    <footer class="glass-footer">
-        <p>&copy; 2025 Rajwardhan Bhandigare</p>
+    <p class="footer-copy">&copy; 2025 Rajwardhan Bhandigare</p>
     </footer>
 </body>
-
 </html>
